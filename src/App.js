@@ -5,11 +5,15 @@ import "primeicons/primeicons.css";                                //icons
  
 import './App.css';
 import CounterPage from './components/CounterPage';
+import MealList from "./components/MealList";
+import PopupModal from "./components/PopupModal";
 
 function App() {
   return (
     <div className="App">
       <CounterPage />
+      <PopupModal></PopupModal>
+      <MealList></MealList>
     </div>
   );
 }
